@@ -1,9 +1,9 @@
 # Lingvistika
 **При морфологическом анализе текста были использованы следующие методы:**
 + morth.parse()[0]
-+ parse.normalized
-+ parse.inflect({gent})
-+ parse.lexeme
++ normalized
++ inflect({gent})
++ lexeme
 
 *Тут должен был быть анализ д/з*
 
