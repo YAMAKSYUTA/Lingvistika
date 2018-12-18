@@ -25,6 +25,6 @@
 ![alt text](https://sg.fiverrcdn.com/photos/6611313/original/python-logo-master-flat.png?1429210220 "Kartinka")
 
 
-| кавочего | чегоаво | кавокаво |
+| кавочего | чаво | кавокаво |
 | -------- | :------- | -------: |
 | кавокаво | xzxzxzxz | bfdrtyui |
