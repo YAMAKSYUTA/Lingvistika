@@ -1,4 +1,3 @@
-
 import vk_api
 import time
 import sys
@@ -18,7 +17,7 @@ posts = ''
 
 c = 0
 text_raw = ""
-for i in range(0 ,20):
+for i in range(0 ,2):
 
     data = vk.wall.get(domain = 'bugurt_thread' ,count=50, offset=offset)
 
@@ -47,6 +46,6 @@ for word in res_text:
         count.update({result[0]: 1})
     else:
         count[result[0]] += 1
-text2 = open("Бугуртный_частотник.txt", "w")
+text2 = open("Бугуртный_частотник.txt", "w", encoding = "utf=8")
 for key in sorted(count, key = count.get):
     text2.write(str(key) + " " + str(count[key]) + "\n")
